@@ -4,12 +4,14 @@
   padding: 0;
 }
 
-.primary-section {
-  height: 570px;
-}
-
+/* General */
 .container {
   display: flex;
+}
+
+/* Primary section */
+.primary-section {
+  height: 570px;
 }
 
 .primary-cont {
@@ -56,4 +58,15 @@ figure {
 img {
   width: 100%;
   height: auto;
+}
+
+/* Secondary section */
+.projects-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+}
+
+.projects-cont > div {
+  border: 1px solid #000;
 }
