@@ -3,10 +3,36 @@
   padding: 0;
 }
 
-.box {
+.primary-section {
+  height: 570px;
+}
+
+.container {
   display: flex;
 }
 
+.primary-cont {
+  height: 90%;
+  justify-content: center;
+}
+
+.primary-cont > div {
+  width: 30%;
+}
+
+nav {
+  height: 10%;
+}
+
+.nav-cont {
+  display: flex;
+  height: 100%;
+}
+
+figure {
+  height: inherit;
+  width: inherit;
+}
 img {
   width: 100%;
   height: auto;
