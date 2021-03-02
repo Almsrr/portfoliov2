@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -21,18 +22,37 @@
 }
 
 nav {
+  align-items: center;
   height: 10%;
 }
 
-.nav-cont {
-  display: flex;
-  height: 100%;
+.nav-item-cont {
+  width: 100%;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item-cont li {
+  margin-right: 10px;
+}
+
+li:nth-child(1) {
+  margin-right: auto;
+}
+
+.nav-item-cont a {
+  display: block;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
 }
 
 figure {
   height: inherit;
   width: inherit;
 }
+
 img {
   width: 100%;
   height: auto;
