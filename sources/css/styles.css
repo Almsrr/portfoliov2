@@ -26,7 +26,6 @@ html {
 
 .primary-cont > div {
   width: 35%;
-  border: 1px solid red;
 }
 
 h1 {
@@ -50,14 +49,28 @@ nav {
 
 li:nth-child(1) {
   margin-right: auto;
+  width: 80px;
 }
 
-.nav-item-cont a {
+#logo01 {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.right-nav-link {
   display: block;
   text-align: center;
   color: #000;
   text-decoration: none;
   padding: 10px;
+  border-radius: 3px;
+}
+
+.right-nav-link:hover {
+  color: #fff;
+  background-color: #000;
 }
 
 figure {
