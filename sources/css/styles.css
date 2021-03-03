@@ -33,6 +33,7 @@ h1 {
 }
 
 nav {
+  position: sticky;
   align-items: center;
   height: 10%;
 }
