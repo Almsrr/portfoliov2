@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  font-family: Cabin, sans-serif;
+}
+
 /* General */
 .container {
   display: flex;
@@ -17,10 +21,16 @@
 .primary-cont {
   height: 90%;
   justify-content: center;
+  align-items: center;
 }
 
 .primary-cont > div {
-  width: 30%;
+  width: 35%;
+  border: 1px solid red;
+}
+
+h1 {
+  font-family: "Kumbh Sans", serif;
 }
 
 nav {
