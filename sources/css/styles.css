@@ -35,9 +35,14 @@ section h2 {
   align-items: center;
 }
 
-.primary-cont > div {
-  width: 40%;
-  height: 40%;
+.center {
+  width: 60%;
+  justify-content: center;
+}
+
+.center > div {
+  width: 50%;
+  padding: 10px;
 }
 
 h1 {
