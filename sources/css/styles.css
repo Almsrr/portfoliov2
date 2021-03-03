@@ -13,9 +13,13 @@ html {
   display: flex;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* Primary section */
 .primary-section {
-  height: 570px;
+  height: 600px;
 }
 
 .primary-cont {
@@ -85,6 +89,10 @@ img {
 }
 
 /* Secondary section */
+.secondary-section {
+  padding: 100px 0;
+  border: 1px solid red;
+}
 .projects-cont {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
