@@ -36,11 +36,31 @@ section h2 {
 }
 
 .primary-cont > div {
-  width: 35%;
+  width: 40%;
+  height: 40%;
 }
 
 h1 {
   font-family: Sora, serif;
+}
+
+#myphoto {
+  display: block;
+  margin: auto;
+  width: 20%;
+  height: 70%;
+}
+
+.primary-cont pre {
+  white-space: normal;
+  font-family: VT323, monospace;
+  text-align: center;
+}
+
+#ekko {
+  width: 89%;
+  text-align: right;
+  font-family: VT323, monospace;
 }
 
 nav {
@@ -83,16 +103,6 @@ li:nth-child(1) {
 .right-nav-link:hover {
   color: #fff;
   background-color: #000;
-}
-
-figure {
-  height: inherit;
-  width: inherit;
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
 
 /* Secondary section */
