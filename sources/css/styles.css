@@ -24,6 +24,11 @@ section h2 {
   border-bottom: 2px solid #000;
 }
 
+section h3 {
+  padding: 10px;
+  text-align: center;
+}
+
 /* Primary section */
 .primary-section {
   height: 600px;
@@ -107,6 +112,21 @@ nav {
 .right-nav-link:hover {
   color: #fff;
   background-color: #000;
+}
+
+/* My main technologies */
+.technologies {
+  padding: 50px 0;
+}
+
+.techno-cont {
+  border: 1px solid red;
+  justify-content: center;
+}
+
+.techno-cont > div {
+  margin: 5px;
+  border: 1px solid blue;
 }
 
 /* Secondary section */
