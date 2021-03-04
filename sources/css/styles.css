@@ -147,18 +147,15 @@ footer {
   height: 100%;
 }
 
-.foot-cont > li {
-  margin-right: 5px;
-}
-
-/* li:first-child {
+.owner {
   margin-right: auto;
   width: 120px;
-} */
+}
 
 .right-footer-icon {
   width: 33px;
   height: 33px;
+  margin-right: 5px;
 }
 
 .icon {
