@@ -120,13 +120,14 @@ nav {
 }
 
 .techno-cont {
-  border: 1px solid red;
   justify-content: center;
 }
 
 .techno-cont > div {
+  padding: 1%;
   margin: 5px;
-  border: 1px solid blue;
+  border: 2px solid #000;
+  border-radius: 25% 10%;
 }
 
 /* Secondary section */
