@@ -19,13 +19,8 @@ section h2 {
   padding: 10px;
   margin: 15px auto;
   text-align: center;
-  font-size: calc(1rem + 0.5vw);
+  font-size: calc(1.1rem + 1vw);
   border-bottom: 2px solid #000;
-}
-
-section h3 {
-  padding: 10px;
-  text-align: center;
 }
 
 /* Primary section */
@@ -40,7 +35,7 @@ section h3 {
 }
 
 .center {
-  width: 60%;
+  width: 70%;
   justify-content: center;
 }
 
@@ -51,6 +46,12 @@ section h3 {
 
 h1 {
   font-family: Sora, serif;
+  font-size: calc(1.5rem + 1.5vw);
+}
+
+.dev-title {
+  font-size: calc(1.1rem + 1.5vw);
+  color: brown;
 }
 
 #myphoto {
@@ -99,6 +100,7 @@ nav {
 }
 
 .right-nav-link {
+  font-size: calc(0.85rem + 0.2vw);
   margin-right: 10px;
   display: block;
   text-align: center;
@@ -116,6 +118,11 @@ nav {
 /* My main technologies */
 .technologies {
   padding: 50px 0;
+}
+
+.technologies h3 {
+  text-align: center;
+  font-size: calc(1rem + 0.5vw);
 }
 
 .techno-cont {
